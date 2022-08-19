@@ -16,7 +16,7 @@
 - [Slack Channel](https://nd-cse.slack.com/channels/compilers-fa22)
 - [Online Textbook](http://compilerbook.org)
 - [Examples and Starter Code](https://github.com/dthain/compilerbook-examples)
-- [B-Minor 2022 Language Guide](bminor-2022.md)
+- [B-Minor 2022 Language Guide](bminor.md)
 
 ## Course Schedule
 
