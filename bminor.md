@@ -121,7 +121,7 @@ Following are examples of some (but not all) type errors:
 ```
 x: integer = 65;
 y: char = 'A';
-if(x&gt;y) ... // error: x and y are of different types!
+if(x>y) ... // error: x and y are of different types!
 
 f: integer = 0;
 if(f) ...      // error: f is not a boolean!
@@ -140,7 +140,7 @@ Following are some (but not all) examples of correct type assignments:
 b: boolean;
 x: integer = 3;
 y: integer = 5;
-b = x&lt;y;     // ok: the expression x&lt;y is boolean
+b = x<y;     // ok: the expression x<y is boolean
 
 f: integer = 0;
 if(f==0) ...    // ok: f==0 is a boolean expression
@@ -197,7 +197,7 @@ is typically passed as an extra argument:
 ```
 printarray: function void ( a: array [] integer, size: integer ) = {
 	i: integer;
-	for( i=0;i&lt;size;i++) {
+	for( i=0;i<size;i++) {
 		print a[i], "\n";
 	}
 }
@@ -219,12 +219,8 @@ main: function integer () = {
 
 A complete program must have a `main` function
 that returns an integer.  the arguments to `main`
-	      may either be empty, or use `argc` and `argv`
-	      with the same meaning as in C:
-	      
-	      
-as in C.  (The declaration of `argc`
-and `argv` is left as an exercise to the reader.)
+may either be empty, or use `argc` and `argv`
+with the same meaning as in C:
 
 ```
 main: function integer ( argc: integer, argv: array [] string ) = {
