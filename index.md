@@ -2,21 +2,21 @@
 
 ## Instructors
 
-- Prof. Douglas Thain
-- Office Hours: TBA
+- Prof. Douglas Thain (`dthain@nd.edu`)
+- Office Hours: 1-3PM Tue/Thu
 - Office: 384 Fitpatrick Hall
 
-- TA: Noah Ziems
-- Office Hours: TBA
-- Office:
+- TA: Noah Ziems (`nziems2@nd.edu`)
+- Office Hours: 2-4PM Mon/Wed
+- Office: 150B Fitzpatrick Hall (CSE Student Commons)
 
 ## Important Documents
 
 - [Course Syllabus](syllabus.md)
+- [Slack Channel](https://nd-cse.slack.com/channels/compilers-fa22)
 - [Online Textbook](http://compilerbook.org)
 - [Examples and Starter Code](https://github.com/dthain/compilerbook-examples)
-- [General Assignment Instructions](general.md)
-- [B-Minor 2021 Language Guide](bminor.md)
+- [B-Minor 2022 Language Guide](bminor-2022.md)
 
 ## Course Schedule
 
@@ -24,7 +24,7 @@
 
 |Week | Reading | Monday | Wednesday | Friday | Assignment |
 |-----|---------|-------|------------|--------|------------|
-|Aug 22 | Ch 1-2     | (no class)      | Introduction          | Overview        | [Syllabus](syllabus.md)  |
+|Aug 22 | Ch 1-2     |                 | Introduction          | Overview        | [Syllabus](syllabus.md)  |
 |Aug 29 | Ch 3       | Reg Expressions | Finite Automata       | RE->NFA->DFA    | HW0 Due Wed |
 |Sep 5  | Ch 4.1-4.3 | Flex            | Context Free Grammars | LL(1) Grammars  | HW1 Due Wed | 
 |Sep 12 | Ch 4.3-4.6 | LL(1) Parsing   | Shift-Reduce Parsing  | LR(0) Automaton | Scanner Due |
@@ -37,6 +37,6 @@
 |Oct 31 | Ch 10      | Assembly        | Assembly              | Guest Lecture    |                   |
 |Nov 7  |            | Assembly        | Assembly              | Codegen          | Typecheck Due Wed |
 |Nov 14 | Ch 11      | Codegen         | Codegen               | Codegen          |                   |
-|Nov 21 | Ch 12      | Optimization    | (no class)            | (no class)       |                   |
+|Nov 21 | Ch 12      | Optimization    |                       |                  |                   |
 |Nov 28 |            | Optimization    | Garbage Coll.         | Garbage Coll     |
-|Dec 5  |            | Catch Up        | Review                | (no class)       |  Code Generator Due Wed|
+|Dec 5  |            | Catch Up        | Review                |                  |  Code Generator Due Wed|

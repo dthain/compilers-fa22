@@ -5,12 +5,12 @@
 Prof. Douglas Thain
 - Email: `dthain@nd.edu`
 - Office: 384C Fitzpatrick Hall
-- Office Hours: TBA
+- Office Hours: 1-3PM Tue/Thu
 
 TA: Noah Ziems
-- Email: `nziems@nd.edu`
-- Office: 150B Fitzpatrick (CSE Student Comments)
-- Office Hours: TBA
+- Email: `nziems2@nd.edu`
+- Office: 150B Fitzpatrick (CSE Student Commons)
+- Office Hours: 2-4PM Mon/Wed
 
 ## Overview
 
@@ -49,7 +49,6 @@ Monday's lecture begins.  (Read Chapters 1 and 2 today.)
 - Online: `compilerbook.org`
 
 ## Suggested References
-- Fischer and LeBlanc, "Crafting a Compiler in C", 1991, Benjamin/Cummings.
 - Aho, Lam, Sethi, Ullman, "Compilers: Principles, Techniques, and Tools", Pearson, 2007.
 - [Intel Corp, "Intel-64 and IA-32 Architectures Software Developer's Manuals", 2015](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
 
@@ -93,7 +92,7 @@ people in the class.  Let's reserve this time for working together.
 ## Communications
 
 Assignments and the course schedule are available on the course website,
-and assignment grades will be posted in Canvas.  We will be using Slack
+and assignment grades will be posted in Canvas.  We will be using Slack (\#compilers-fa22)
 to handle general Q&amp;A for the class.
 If you have a technical question that could be of interest to others,
 please post it here, so that others can benefit from the answers.
