@@ -4,21 +4,19 @@
 
 <table>
 <tr>
-<td>><img src=images/dthain.jpg height=128>
+<td><img src=images/dthain.jpg height=128>
 <td>
-- Prof. Douglas Thain (`dthain@nd.edu`)
-- Office Hours: 1-3PM Tue/Thu
-- Office: 384 Fitpatrick Hall
-</table>
-  
-<table>
+<ul>
+<li> Prof. Douglas Thain (`dthain@nd.edu`)
+<li> Office Hours: 1-3PM Tue/Thu
+<li> Office: 384 Fitpatrick Hall
 <tr>
 <td>
-<td>><img src=images/dthain.jpg height=128>
+<td><img src=images/nziems.jpg height=128>
 <td>
-- TA: Noah Ziems (`nziems2@nd.edu`)
-- Office Hours: 2-4PM Mon/Wed
-- Office: 150B Fitzpatrick Hall (CSE Student Commons)
+<li> TA: Noah Ziems (`nziems2@nd.edu`)
+<li> Office Hours: 2-4PM Mon/Wed
+<li> Office: 150B Fitzpatrick Hall (CSE Student Commons)
 </table>
   
 ## Important Documents
