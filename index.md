@@ -27,11 +27,11 @@
 |Week | Reading | Monday | Wednesday | Friday | Assignment |
 |-----|---------|-------|------------|--------|------------|
 |Aug 22 | Ch 1-2     |                 | Introduction / [Syllabus](syllabus.md)  | Overview        |  |
-|Aug 29 | Ch 3       | Reg Expressions | Finite Automata       | RE->NFA->DFA    | HW0 Due Wed |
-|Sep 5  | Ch 4.1-4.3 | Flex            | Context Free Grammars | LL(1) Grammars  | HW1 Due Wed | 
+|Aug 29 | Ch 3       | Reg Expressions | Finite Automata       | RE->NFA->DFA    | [HW1 Due Wed](homework.md) |
+|Sep 5  | Ch 4.1-4.3 | Flex            | Context Free Grammars | LL(1) Grammars  | [HW2 Due Wed](homework.md) | 
 |Sep 12 | Ch 4.3-4.6 | LL(1) Parsing   | Shift-Reduce Parsing  | LR(0) Automaton | Scanner Due |
-|Sep 19 | Ch 5       | SLR Parsing     | LR(1) and Recap       | Bison           | HW2 Due Wed |
-|Sep 26 | Ch 6       | Parsing B-Minor | Abstract Syntax Tree  | Catch Up        | HW3 Due Wed |
+|Sep 19 | Ch 5       | SLR Parsing     | LR(1) and Recap       | Bison           | [HW3 Due Wed](homework.md) |
+|Sep 26 | Ch 6       | Parsing B-Minor | Abstract Syntax Tree  | Catch Up        | [HW4 Due Wed](homework.md) |
 |Oct 3  | Ch 7       | Type Systems    | B-Minor Typing        | Name Resolution  | Parser Due Wed |
 |Oct 10 |            | Type Checking   | Catch Up              | **Midterm Exam** |                   |
 |Oct 17 |            | *Fall Break*    | *Fall Break*          | *Fall Break*     |                   |
