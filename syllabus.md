@@ -34,10 +34,14 @@ some additional work to earn graduate credit, including an expository
 paper on a modern compiler technique, and a substantial extension to
 the project compiler.
 
-You are the second class to test out my new textbook on compilers!
-You can download PDFs for online reading, or purchase a hard copy online.
+The textbook is online and your are welcome to download 
+PDFs for online reading, or purchase a hard copy online.
 Make a habit of reading the appropriate chapter over the weekend before
 Monday's lecture begins.  (Read Chapters 1 and 2 today.)
+
+Note there are still a few typos lurking here and there in the book,
+and I will grant a little credit (1/10th of a point) for each typo
+correctly reported and fixed, up to a maximum of 10 points.  Read carefully!
 
 ## Course Web Page
 
@@ -92,8 +96,8 @@ people in the class.  Let's reserve this time for working together.
 ## Communications
 
 Assignments and the course schedule are available on the course website,
-and assignment grades will be posted in Canvas.  We will be using Slack (\#compilers-fa22)
-to handle general Q&amp;A for the class.
+and assignment grades will be posted in Canvas.
+We will be using Slack (\#compilers-fa22) to handle general Q&amp;A for the class.
 If you have a technical question that could be of interest to others,
 please post it here, so that others can benefit from the answers.
 
@@ -113,9 +117,9 @@ see if we can work out another time.
 
 ## Grading Policies
 
-Paper assignments should be brought to class and are due at the
-**beginning** of class on the date due.  Programming assignments
-must be submitted electronically **before 5PM** on the date due.
+Written homeworks will be submitted as PDFs or images on Canvas,
+and programming assignments must be pushed to your private github
+repository by the deadline.  Both are due **before 5PM** on the date due.
 
 **Late assignments will receive no credit.**
 You are free to turn in programming assignments
@@ -149,7 +153,6 @@ Homeworks 15%, Code Assignments 55%, Midterm 15%, Final 15%.
 
 For graduate students in CSE 60243, grades are weighted as follows:
 Homeworks 10%, Code Assignments 50%, Paper 10%, Midterm 15%, Final 15%.
-
 
 ## Academic Code of Honor
 
