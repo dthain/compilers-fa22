@@ -24,8 +24,8 @@ Then, answer the following questions:
 - Count the number of files, lines, and bytes present in the source code.
 - Run the preprocessor on each source file, count the number of lines and bytes, and compare to the source files.  Examine the preprocessed code: is there anything surprising present?
 - Run the compiler on each source file to generate object code, and again count and compare the number of bytes.  Use `nm` to observe all of the symbols in the file.  How many symbols are defined, and how many undefined?  Identify at least three undefined symbols, and look up their purpose using `man` or other reference materials, and briefly explain why they are there.
-- Generate the final executable, and again count and compare the number of bytes.  Use `nm` to observe all of the symbols in the file.  Again, count the defined and undefined symbols.
-- Generate the final executable again, using the `-static` option to produce a fully statically linked executable.  Repeat the prior observations.
+- Generate the final executable, and again count and compare the number of bytes.  Use `nm` to observe all of the symbols in the file.  Again, count the defined and undefined symbols.  Use `ldd` to observe what dynamic libraries the program requires.  Look up the purpose of each library and briefly explain it.
+- Generate the final executable again, using the `-static` option to produce a fully statically linked executable.  Again, count the defined and undefined symbols.
 
 Then select one non-trivial function or method from that program,
 and show the complete body of that function in each stage of
