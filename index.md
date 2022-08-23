@@ -16,6 +16,7 @@
 - [Course Syllabus](syllabus.md)
 - [Slack Channel](https://nd-cse.slack.com/channels/compilers-fa22)
 - [Online Textbook](http://compilerbook.org)
+- [Canvas Course Page](https://canvas.nd.edu/courses/52550)
 - [Examples and Starter Code](https://github.com/dthain/compilerbook-examples)
 - [B-Minor 2022 Language Guide](bminor.md)
 
