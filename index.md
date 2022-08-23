@@ -2,12 +2,12 @@
 
 ## Instructors
 
-<img src=images/dthain.jpg height=128 align=left/>
+![](images/dthain.jpg)
 - Prof. Douglas Thain (`dthain@nd.edu`)
 - Office Hours: 1-3PM Tue/Thu
 - Office: 384 Fitpatrick Hall
 
-<img src=images/nziems.jpg height=128 align=left/>
+![](images/nziems2.jpg)
 - TA: Noah Ziems (`nziems2@nd.edu`)
 - Office Hours: 2-4PM Mon/Wed
 - Office: 150B Fitzpatrick Hall (CSE Student Commons)
