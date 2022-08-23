@@ -156,7 +156,7 @@ Homeworks 10%, Code Assignments 50%, Paper 10%, Midterm 15%, Final 15%.
 
 ## Academic Code of Honor
 
-As a student at Notre Dame, you are bound by the [Academic Code of Honor] (href=http://honorcode.nd.edu>http://honorcode.nd.edu),
+As a student at Notre Dame, you are bound by the [Academic Code of Honor] (http://honorcode.nd.edu),
 which states:
 
 *As a member of the Notre Dame community, I acknowledge that it is my responsibility to learn and abide by principles of intellectual honesty and academic integrity, and therefore I will not participate in or tolerate academic dishonesty.*
@@ -170,7 +170,7 @@ based on their own understanding of the course material.
 
 - You **may** consult with other students and outside resources in order to
 better understand concepts and techniques, or to debug localized problems.
-- You **may not** copy code from another student or resource,
+- You **may not** copy code from another student or resource (or AI assistant!),
 excepting the "starter code" provided by the instructor.
 
 ## Some Campus Resources
