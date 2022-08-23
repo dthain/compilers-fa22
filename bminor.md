@@ -227,3 +227,34 @@ main: function integer ( argc: integer, argv: array [] string ) = {
         puts("hello world");
 }
 ```
+
+## Questions and Clarifications
+
+Many fine-grained questions about exceptions and corner cases come up
+during the semester.  Clarifications will be posted here as they are decided.
+
+### Scanning
+
+- **Q: Is `""` a valid string literal?**
+A: Yes, two double quotes represents an empty string consisting only of the null terminator.
+
+-**Q: Is this a valid string literal?**
+```
+"hello
+world"
+```
+A: No, a newline in a string needs to be escaped, like this: `"hello\nworld"`
+
+-**Q: Do we need to handle #include, #define, and so forth?**
+A: No, they are not part of B-minor.
+
+-**Q: Can an integer have a leading negative/positive sign?**
+A: Yes, and it's important later that this counts as a single
+token, and not as two separate tokens. `-10` should scan as NUMBER.
+
+### Parsing
+
+### Typechecking
+
+### Code Generation
+
