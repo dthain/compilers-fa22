@@ -7,7 +7,7 @@
 - Office Hours: 1-3PM Tue/Thu
 - Office: 384 Fitpatrick Hall
 
-![](images/nziems2.jpg)
+<img src=images/nziems2.jpg align=left>
 - TA: Noah Ziems (`nziems2@nd.edu`)
 - Office Hours: 2-4PM Mon/Wed
 - Office: 150B Fitzpatrick Hall (CSE Student Commons)
