@@ -9,7 +9,7 @@
 ## Online Textbook
 
 |----|----|
-|![](images/compilerbook.jpg)| Douglas Thain,<br>Introduction to Compilers and Language Design,<br>2nd edition, 2020.<br>[http://compilerbook.org](http://compilerbook.org)
+|![](images/compilerbook-small.jpg)| Douglas Thain,<br>Introduction to Compilers and Language Design,<br>2nd edition, 2020.<br>[http://compilerbook.org](http://compilerbook.org)
 
 ## Important Documents
 
