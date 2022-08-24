@@ -79,3 +79,14 @@ To double check your submission locally:
 3) With a new name for the repository, run `git clone <url>`. **If a directory with the repository name already exists, you'll have to run `git clone <url> <name>` where `<name>` is a different from the original repository name.**
 
 4) Navigate into your newly cloned repository and double check all the files are correct for your submission.
+
+## Setting Up Custom Environment
+For those who need to do not wish to work on the student CSE machines, here are the instructions to setup the environment locally. Please know that you are responsible for setting up the environment properly and ensuring your work still functions on the student CRC machines.
+
+1) First, [install conda](https://docs.conda.io/en/latest/miniconda.html)
+
+2) Create a conda environment by running `conda create --name compilers-env`
+
+3) Activate the environment: `conda activate compilers-env`
+
+4) Install 
