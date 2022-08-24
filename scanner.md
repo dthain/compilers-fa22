@@ -66,5 +66,5 @@ and using constructive comments where appropriate.
 
 To turn in via github, please review the [General Instructions for Turning In](general.md)
 
-**This assignment is due on Wednesday, September 14th at 5PM  Late assignments are not accepted.**
+**This assignment is due on Wednesday, September 14th at 11:59PM  Late assignments are not accepted.**
 
