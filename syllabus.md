@@ -119,7 +119,7 @@ see if we can work out another time.
 
 Written homeworks will be submitted as PDFs or images on Canvas,
 and programming assignments must be pushed to your private github
-repository by the deadline.  Both are due **before 5PM** on the date due.
+repository by the deadline.  Both are due **before 11:59PM** on the date due.
 
 **Late assignments will receive no credit.**
 You are free to turn in programming assignments
