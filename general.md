@@ -30,8 +30,13 @@ Likewise, `make clean` should remove all intermediate object files, automaticall
 
 3) Make sure your repository is **PRIVATE** not public, then click the green "Create repository from template" button.
 
-4) Copy the url of the created repository. It should look something like this:
+4) Copy the url of the created repository. The URL should look something like this:
 `https://github.com/Ziems/nziems2-compiler`
+
+5) Go into your repository settings on the right side of the screen then click on "Collaborators". Add both me and Dr. Thain as contributors. Our usernames are `dthain` and `ziems`.
+
+6) Open slack and reply to Noah's post in the class channel with a link to your repository(the url you copied)
+
 
 **Step Two: Local Copy**.
 1) In a terminal, navigate where you'd like the project directory to be.
@@ -56,3 +61,21 @@ Likewise, `make clean` should remove all intermediate object files, automaticall
 3) Click "Choose a new tag", type "scanner", then click "Create new tag"
 
 4) Click "Publish release" at the bottom and you're done!
+
+## Double Checking Your Submission
+
+There are two ways to check your submission: on GitHub and locally.
+
+### On GitHub
+To double check your submission on GitHub, you can navigate to the repository on GitHub and make sure the files you changed locally are also changed on GitHub.
+
+### Locally
+To double check your submission locally:
+
+1) Copy the url of your GitHub repository
+
+2) In a terminal, navigate where you'd like the clean project directory to be
+
+3) With a new name for the repository, run `git clone <url>`. **If a directory with the repository name already exists, you'll have to run `git clone <url> <name>` where `<name>` is a different from the original repository name.**
+
+4) Navigate into your newly cloned repository and double check all the files are correct for your submission.
