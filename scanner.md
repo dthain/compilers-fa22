@@ -2,7 +2,7 @@
 
 The first step in building a compiler is to create a scanner.
 
-You will use the [Flex Scanner Generator](https://github.com/westes/flex)
+You will use the [Flex Scanner Generator](https://westes.github.io/flex/manual/)
 to construct a scanner generator for the [B-minor Language](bminor.md).
 It is up to you to carefully read this document and decide what all of the
 token types are, and define them carefully using flex regular expressions.
