@@ -27,7 +27,7 @@
 |Week | Reading | Monday | Wednesday | Friday | Assignment |
 |-----|---------|-------|------------|--------|------------|
 |Aug 22 | Ch 1-2     |                 | Introduction / [Syllabus](syllabus.md)  | Overview        |  |
-|Aug 29 | Ch 3       | Reg Expressions | Finite Automata       | RE->NFA->DFA    | [HW1 Due Wed](homework.md) |
+|Aug 29 | Ch 3       | Regex / [ByHand](https://github.com/cooperative-computing-lab/cctools/blob/master/dttools/src/jx_parse.c#L254) / [RE Golf](http://alf.nu/RegexGolf?world=regex&level=r02) | Finite Automata       | RE->NFA->DFA    | [HW1 Due Wed](homework.md) | 
 |Sep 5  | Ch 4.1-4.3 | Flex            | Context Free Grammars | LL(1) Grammars  | [HW2 Due Wed](homework.md) | 
 |Sep 12 | Ch 4.3-4.6 | LL(1) Parsing   | Shift-Reduce Parsing  | LR(0) Automaton | Scanner Due |
 |Sep 19 | Ch 5       | SLR Parsing     | LR(1) and Recap       | Bison           | [HW3 Due Wed](homework.md) |
