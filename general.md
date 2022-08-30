@@ -54,11 +54,13 @@ Likewise, `make clean` should remove all intermediate object files, automaticall
 
 ## Turning In Code to Github
 
-1) Go back to the link of your github repository. Make sure you refresh your page. **If everything went well you should see the changes you made to the README.md file.**
+1) Make sure that all files that you have changed are added with `git add`, committed with `git commit`, and pushed with `git push`.
 
-2) On the righthand side under "Releases", click "Create new release"
+2) Go back to the link of your github repository. Make sure you refresh your page. **If everything went well you should see all of your changes.**
 
-3) Click "Choose a new tag", type "scanner", then click "Create new tag"
+3) On the righthand side under "Releases", click "Create new release"
+
+3) Click "Choose a new tag", type "scan" (or "parse", "print", "typecheck" or "codegen" for later assignments) then click "Create new tag"
 
 4) Click "Publish release" at the bottom and you're done!
 
@@ -78,4 +80,4 @@ To double check your submission locally:
 
 3) With a new name for the repository, run `git clone <url>`. **If a directory with the repository name already exists, you'll have to run `git clone <url> <name>` where `<name>` is a different from the original repository name.**
 
-4) Navigate into your newly cloned repository and double check all the files are correct for your submission.
+4) Navigate into your newly cloned repository and double check that your code builds, runs, and passes all the tests.
