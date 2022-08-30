@@ -64,7 +64,7 @@ As always, exercise good style in programming by choosing sensible
 variable names, breaking complex tasks down into smaller functions,
 and using constructive comments where appropriate.
 
-To turn in via github, please review the [General Instructions for Turning In](general.md)
+To turn in via github, please review the [General Instructions for Turning In](general.md).  Make sure that your code is tagged as a release named "scan".
 
 **This assignment is due on Wednesday, September 14th at 11:59PM  Late assignments are not accepted.**
 
