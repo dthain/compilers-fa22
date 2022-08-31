@@ -31,7 +31,7 @@ Then select one non-trivial function or method from that program,
 and show the complete body of that function in each stage of
 the compiler:
 
-- Original source of the functioon.
+- Original source of the function.
 - Source code after preprocessing.
 - Object code after compiling. (Use `objdump` to show readable assembly language.)
 - Executable code after linking. (Again, use `objdump`)
