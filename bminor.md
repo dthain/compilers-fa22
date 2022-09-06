@@ -47,7 +47,7 @@ i x mystr fog123 BigLongName55
 
 The following strings are B-minor keywords and may not be used as identifiers:
 ```
-array **auto** boolean char else false for function if integer print return string true void while
+array auto boolean char else false for function if integer print return string true void while
 ```
 
 ## Types
@@ -236,21 +236,24 @@ during the semester.  Clarifications will be posted here as they are decided.
 ### Scanning
 
 - **Q: Is `""` a valid string literal?**
+
 A: Yes, two double quotes represents an empty string consisting only of the null terminator.
 
--**Q: Is this a valid string literal?**
+- **Q: Is this a valid string literal?**
 ```
 "hello
 world"
 ```
 A: No, a newline in a string needs to be escaped, like this: `"hello\nworld"`
 
--**Q: Do we need to handle #include, #define, and so forth?**
+- **Q: Do we need to handle #include, #define, and so forth?**
+
 A: No, they are not part of B-minor.
 
--**Q: Can an integer have a leading negative/positive sign?**
+- **Q: Can an integer have a leading negative/positive sign?**
+
 A: Yes, and it's important later that this counts as a single
-token, and not as two separate tokens. `-10` should scan as NUMBER.
+token, and not as two separate tokens. `-10` and `+123` should scan as NUMBER.
 
 ### Parsing
 
