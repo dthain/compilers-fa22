@@ -162,13 +162,38 @@ Function definitions may not be nested.
 Within functions, basic statements may be 
 arithmetic expressions, return statements,
 print statements, if and if-else statements, for loops,
-or code within inner { } groups.  B-minor does
-not have switch statements, while-loops, or do-while loops.
+or code within inner { } groups:
+
+```
+// An arithmetic expression statement.
+y = m*x + b;
+
+// A return statement.
+return (f-32)*5/9;
+
+// An if-else statement.
+if( temp>100 ) {
+    print "It's really hot!\n";
+} else if( temp>70 ) {
+    print "It's pretty warm.\n";
+} else {
+    print "It's not too bad.\n";
+}
+
+// A for loop statement.
+for( i=0; i<100; i++ ) {
+    print i;0
+}
+```
+
+B-minor does not have switch statements, while-loops, or do-while loops.
+(But you could consider adding them as a little extra project.)
 
 The `print` statement is a little unusual
-because it is a statement and not a function call.
+because it is a **statement** and not a function call like `printf` is in C.
 `print` takes a list of expressions separated by commas,
 and prints each out to the console, like this:
+
 ```
 print "The temperature is: ", temp, " degrees\n";
 ```
@@ -228,7 +253,7 @@ main: function integer ( argc: integer, argv: array [] string ) = {
 }
 ```
 
-## Questions and Clarifications
+## Questions and Clarifications for 2022
 
 Many fine-grained questions about exceptions and corner cases come up
 during the semester.  Clarifications will be posted here as they are decided.
