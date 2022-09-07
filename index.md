@@ -44,3 +44,5 @@
 |Nov 21 | Ch 12      | Optimization    |                       |                  |                   |
 |Nov 28 |            | Optimization    | Garbage Coll.         | Garbage Coll     |
 |Dec 5  |            | Catch Up        | Review                |                  |  Code Generator Due Wed|
+|Dec 12 |            |                 |                       | **Final Exam** 8-10AM Friday  |                   |
+
