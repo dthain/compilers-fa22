@@ -17,6 +17,7 @@
 - [Slack Channel](https://nd-cse.slack.com/channels/compilers-fa22)
 - [Online Textbook](http://compilerbook.org)
 - [Canvas Course Page](https://canvas.nd.edu/courses/52550)
+- [General Assignment Instructions](general.md)
 - [Starter Code](https://github.com/dthain/compilerbook-starter-code)
 - [Flex Scanner Generator](https://westes.github.io/flex/manual/)
 - [Bison Parser Generator](https://www.gnu.org/software/bison/manual/html_node/index.html)
