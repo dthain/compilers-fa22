@@ -30,10 +30,10 @@ Likewise, `make clean` should remove all intermediate object files, automaticall
 
 3) Make sure your repository is **PRIVATE** not public, then click the green "Create repository from template" button.
 
-4) Copy the url of the created repository. The URL should look something like this:
-`https://github.com/Ziems/nziems2-compiler`
-
 5) Go into your repository settings on the right side of the screen then click on "Collaborators". Add both me and Dr. Thain as contributors. Our usernames are `dthain` and `ziems`.
+
+7) Go back to the repository main page and click the green "code" button then copy the URL under the "SSH" tab. The URL should look something like this:
+`git@github.com:Ziems/nziems2-compiler.git`. If you see a yellow box asking you to create public ssh keys, follow the instructions to do so.
 
 6) Open slack and reply to Noah's post in the class channel with a link to your repository(the url you copied)
 
