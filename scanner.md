@@ -35,7 +35,7 @@ string
 'a'
 Notre Dame
 "\'Notre Dame\'";
-&gt;=
+>=
 @
 ```
 then your output should be:
