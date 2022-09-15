@@ -269,6 +269,7 @@ A: Yes, two double quotes represents an empty string consisting only of the null
 "hello
 world"
 ```
+
 A: No, a newline in a string needs to be escaped, like this: `"hello\nworld"`
 
 - **Q: Do we need to handle #include, #define, and so forth?**
@@ -281,6 +282,46 @@ A: Yes, and it's important later that this counts as a single
 token, and not as two separate tokens. `-10` and `+123` should scan as NUMBER.
 
 ### Parsing
+
+- **Q: Is `print;` a valid statement?**
+
+A: Yes, it means to print out nothing.
+
+- **Q: Is `return;` a valid statement?**
+
+A: Yes, it indicates a return with no value in a `void` function.
+
+- **Q: Does B-minor permit this syntax?**
+
+```
+for(i=0;i<10,j<10;i++) { ... }
+```
+
+A: No, commas may only be used in `print` statements,
+function calls, function prototypes, and array expressions.
+
+- **Q: Can a single statement (without braces) be used after a for-loop or an if-statement?**
+
+A: Yes, the following are valid statements, just as in C and C++:
+
+```
+for(i=0;i<10;i++) print i;
+if(a) x=y; else z=w;
+```
+
+- **Q: Is a single semicolon a valid statement?**
+
+A: No.
+
+- **Q: Can an array be zero length?**
+
+A: No - An array must be declared with a positive length.
+
+- **Q: Can an array initializer by empty?**
+
+A: No - An initializer must either match the length of the array, or be omitted.  It cannot be empty.
+(It also avoids the case of an empty initializer `{}` begin confused with an
+empty statement block `{}`.
 
 ### Typechecking
 
