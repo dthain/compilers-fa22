@@ -35,8 +35,8 @@
 |Sep 12 | Ch 4.1-4.3 | Context Free Grammars | LL(1) Grammars | LL(1) Parsing   | [Scanner Due](scanner.md) | [CFG Tool](https://web.stanford.edu/class/archive/cs/cs103/cs103.1156/tools/cfg/) / [Joke](https://xkcd.com/1090/)
 |Sep 19 | Ch 4.4-4.6 |  Shift-Reduce Parsing  | LR(0) Automaton  | SLR Parsing         | [HW3 Due Wed](homework.md) |
 |Sep 26 | Ch 5, 6    | LR(1) and Recap  | Bison           | Parsing B-Minor  | [HW4 Due Wed](homework.md) |
-|Oct 3  | Ch 7       | Abstract Syntax Tree   | Type Systems    | B-Minor Typing | [Parser Due Wed](parser.md) |
-|Oct 10 |            | Name Resolution | Review              | **Midterm Exam** |                   |
+|Oct 3  | Ch 7       | Abstract Syntax Tree   | Type Systems    | B-Minor Typing |  |
+|Oct 10 |            | Name Resolution | Review              | **Midterm Exam** |  [Parser Due Mon](parser.md) |
 |Oct 17 |            | *Fall Break*    | *Fall Break*          | *Fall Break*     |                   |
 |Oct 24 | Ch 8-9     | Intermediate Reps | Memory Org          | Memory Org       | Printer Due Wed   |
 |Oct 31 | Ch 10      | Assembly        | Assembly              | Guest Lecture    |                   |
