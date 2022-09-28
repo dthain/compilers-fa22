@@ -49,6 +49,21 @@ If your program is invoked like this:
 Then it should continue to operate as in the previous assignment; this will facilitate debugging.
 You may of course reorganize or move code around as long as the standalone scanner still works.
 
+## Fix Scanner if Needed
+
+First if, you had any problems with your scanner from the first
+assignment, you should fix them before proceeding.  Make sure that
+the action of each rule is to return a symbolic token type (e.g. `TOKEN_INTEGER`)
+so that `yylex()` has the proper return value to be used by `yyparse()`.
+
+Note a change in the handling of one token: modify your rule for integers,
+so that an integer token does **not** contain a leading positive or negative sign.
+In other words, the input `-123` should scan as two tokens: `TOKEN_MINUS` and `TOKEN_INTEGER`.
+
+You may find in the course of constructing the parser that your scanner
+had bugs that we didn't see before.  You can and should fix anything in your scanner
+needed to get the entire scanner-parser combination working correctly.
+
 ## Approach
 
 We recommend that you construct your grammar in stages and begin
@@ -70,6 +85,11 @@ have constructed the complete grammar.
 
 Note that Bison will tell you if your grammar has errors.
 In particular, your grammar **must not have any shift-reduce or reduce-reduce conflicts**.  To eliminate them, you may **only re-write the production rules**, you may not apply disambiguating rules, operator precedence specifiers, or apply other "tricks" found in Bison.  (The purpose of this rule is to force you to fully understand the key ideas in LR parsing.)
+
+It will take some time to think through the grammar problems.
+Plan to work on this project over the course of several days,
+so that you are able to work, then take a break to think, and
+then return to the code with fresh thoughts.
 
 ## Testing
 
@@ -126,7 +146,7 @@ For this assignment, your grade will be based upon the following:
 -  (20 points) Correctness on the instructors' hidden test cases.
 -  (10 points) Good programming style.  Each of the program components (main, scanner, parser) should be cleanly separated into multiple source files, complex or repetitive tasks should be broken into multiple functions, identifiers should be sensibly chosen, and the code generally commented and readable.
 
-This assignment is due on Wednesday, October 5th at 11:59PM.  Late assignments are not accepted.
+This assignment is due on **Monday, October 10th at 11:59PM**.  Late assignments are not accepted.
 
 ## Frequently Asked Questions
 
