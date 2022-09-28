@@ -278,8 +278,11 @@ A: No, they are not part of B-minor.
 
 - **Q: Can an integer have a leading negative/positive sign?**
 
-A: Yes, and it's important later that this counts as a single
-token, and not as two separate tokens. `-10` and `+123` should scan as NUMBER.
+~~A: Yes, and it's important later that this counts as a single
+token, and not as two separate tokens. `-10` and `+123` should scan as NUMBER.~~~
+
+A: A leading positive/negative sign should be treated as a separate token.
+That is, `-123` should parse as `TOKEN_MINUS` `TOKEN_NUMBER`
 
 ### Parsing
 
@@ -323,7 +326,15 @@ A: No - An initializer must either match the length of the array, or be omitted.
 (It also avoids the case of an empty initializer `{}` begin confused with an
 empty statement block `{}`.
 
+### Pretty Printing
+
+TBA
+
 ### Typechecking
 
+TBA
+
 ### Code Generation
+
+TBA
 
