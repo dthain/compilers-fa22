@@ -42,7 +42,7 @@
 |Oct 31 | Ch 9       | Memory Org      | Memory Org            | Guest Lecture    |                   |
 |Nov 7  | Ch 10      | Assembly        | Assembly              | Assembly         | Typecheck Due Wed |
 |Nov 14 | Ch 11      | Codegen         | Codegen               | Codegen          |                   |
-|Nov 21 | Ch 11      | Codegen         |                       |                  |                   |
+|Nov 21 | Ch 11      | Codegen         | *Thanksgiving*        | *Thanksgiving*   |                   |
 |Nov 28 | Ch 12      | Optimization    | Garbage Coll.         | Garbage Coll.    |
 |Dec 5  |            | Catch Up        | Review                |                  |  Code Generator Due Wed|
 |Dec 12 |            |                 |                       | **Final Exam** 8-10AM Friday Dec 16  |                   |
