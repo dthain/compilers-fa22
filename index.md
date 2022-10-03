@@ -34,16 +34,16 @@
 |Sep 5  | Ch 3       | NFA->DFA            | Flex | Context Free Grammars | [HW2 Due Wed](homework.md) | [Flex Scanner Generator](https://westes.github.io/flex/manual/)
 |Sep 12 | Ch 4.1-4.3 | Context Free Grammars | LL(1) Grammars | LL(1) Parsing   | [Scanner Due](scanner.md) | [CFG Tool](https://web.stanford.edu/class/archive/cs/cs103/cs103.1156/tools/cfg/) / [Joke](https://xkcd.com/1090/)
 |Sep 19 | Ch 4.4-4.6 |  Shift-Reduce Parsing  | LR(0) Automaton  | SLR Parsing         | [HW3 Due Wed](homework.md) |
-|Sep 26 | Ch 5, 6    | LR(1) and Recap  | Bison           | Parsing B-Minor  | [HW4 Due Wed](homework.md) | [Bison Manual](https://www.gnu.org/software/bison/manual/html_node/index.html) / [Examples](https://github.com/dthain/compilerbook-examples/tree/master/chapter5) |
-|Oct 3  | Ch 7       | Abstract Syntax Tree   | Type Systems    | B-Minor Typing |  |
-|Oct 10 |            | Name Resolution | Review              | **Midterm Exam** |  [Parser Due Mon](parser.md) |
+|Sep 26 | Ch 5      | LR(1) and Recap  | Bison           | Bison  | [HW4 Due Wed](homework.md) | [Bison Manual](https://www.gnu.org/software/bison/manual/html_node/index.html) / [Examples](https://github.com/dthain/compilerbook-examples/tree/master/chapter5) |
+|Oct 3  | Ch 5       | Parsing B-Minor | Parsing B-Minor     | Abstract Syntax Tree |  |
+|Oct 10 | Ch 6       | Abstract Syntax Tree | Review              | **Midterm Exam** |  [Parser Due Mon](parser.md) |
 |Oct 17 |            | *Fall Break*    | *Fall Break*          | *Fall Break*     |                   |
-|Oct 24 | Ch 8-9     | Intermediate Reps | Memory Org          | Memory Org       | Printer Due Wed   |
-|Oct 31 | Ch 10      | Assembly        | Assembly              | Guest Lecture    |                   |
-|Nov 7  |            | Assembly        | Assembly              | Codegen          | Typecheck Due Wed |
+|Oct 24 | Ch 7       | Type Systems    | Name Resolution       | Typechecking     | Printer Due Wed   |
+|Oct 31 | Ch 9       | Memory Org      | Memory Org            | Guest Lecture    |                   |
+|Nov 7  | Ch 10      | Assembly        | Assembly              | Assembly         | Typecheck Due Wed |
 |Nov 14 | Ch 11      | Codegen         | Codegen               | Codegen          |                   |
-|Nov 21 | Ch 12      | Optimization    |                       |                  |                   |
-|Nov 28 |            | Optimization    | Garbage Coll.         | Garbage Coll     |
+|Nov 21 | Ch 11      | Codegen         |                       |                  |                   |
+|Nov 28 | Ch 12      | Optimization    | Garbage Coll.         | Garbage Coll.    |
 |Dec 5  |            | Catch Up        | Review                |                  |  Code Generator Due Wed|
 |Dec 12 |            |                 |                       | **Final Exam** 8-10AM Friday Dec 16  |                   |
 
