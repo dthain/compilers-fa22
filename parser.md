@@ -1,4 +1,4 @@
-# CSE 40243/60243 - Parser Assignment
+# CSE 40243/60243 - Parser Assignment - Fall 2022
 
 ## Objectives
 The objectives of this assignment are:
@@ -138,6 +138,8 @@ Your submission will be tested on the ND student Linux machines,
 so make sure that your code works there.  If you develop on your
 laptop or another computer, leave **plenty of time** before final submission
 to debug any differences between your computer and ours.
+
+**Tag your submission with `parse` in github to turn in.**
 
 For this assignment, your grade will be based upon the following:
 -  (20 points) General correctness of the code.

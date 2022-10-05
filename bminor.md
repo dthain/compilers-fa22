@@ -332,9 +332,18 @@ TBA
 
 ### Typechecking
 
-TBA
+- *Q: Can you clarify how each operator can be used?*
+A: See section 7.3 in the textbook.
+
+- *Q: Does B-minor allow arrays of functions, functions that return functions, variables of type function, and things of that sort?*
+A: No, those should be flagged as type errors, since we won't be implementing them in the code generation.
+
+- *Q: What sort of expression can be used to initialize the length of an array?*
+A: When an array is declared as a global or local variable, the length must be given as a constant integer.  Any more complex expression should result in a type error.  When an array is declared as a function parameter, it should have no length given.
+
+-  *Q: What type should be assumed for a variable or function that cannot be resolved?*
+A:  There is no good assumption that you can make.  To avoid this problem, you should stop after the name resolution phase, if any name resolution errors are discovered.
 
 ### Code Generation
 
 TBA
-

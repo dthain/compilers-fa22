@@ -38,10 +38,10 @@
 |Oct 3  | Ch 5       | Parsing B-Minor | Parsing B-Minor     | Abstract Syntax Tree |  | [AST Handout](ast.html) |
 |Oct 10 | Ch 6       | Abstract Syntax Tree | Review              | **Midterm Exam** |  [Parser Due Mon](parser.md) |
 |Oct 17 |            | *Fall Break*    | *Fall Break*          | *Fall Break*     |                   |
-|Oct 24 | Ch 7       | Type Systems    | Name Resolution       | Typechecking     | Printer Due Wed   |
-|Oct 31 | Ch 9       | Memory Org      | Memory Org            | Guest Lecture    |                   |
-|Nov 7  | Ch 10      | Assembly        | Assembly              | Assembly         | Typecheck Due Wed |
-|Nov 14 | Ch 11      | Codegen         | Codegen               | Codegen          |                   |
+|Oct 24 | Ch 7       | Type Systems    | Name Resolution       | Typechecking     |                   |
+|Oct 31 | Ch 9       | Memory Org      | Memory Org            | Guest Lecture    | [Printer Due Mon](printer.md)|
+|Nov 7  | Ch 10      | Assembly        | Assembly              | Assembly         |                   |
+|Nov 14 | Ch 11      | Codegen         | Codegen               | Codegen          | [Typecheck Due Mon](typecheck.md)|
 |Nov 21 | Ch 11      | Codegen         | *Thanksgiving*        | *Thanksgiving*   |                   |
 |Nov 28 | Ch 12      | Optimization    | Garbage Coll.         | Garbage Coll.    |
 |Dec 5  |            | Catch Up        | Review                |                  |  Code Generator Due Wed|
