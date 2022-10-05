@@ -25,6 +25,7 @@ to add or adjust fields in the structures as necessary.
 Your program will be invoked as follows:
 ```
 ./bminor -print sourcefile.bminor
+```
 
 And it should behave as follows:
 
@@ -46,7 +47,7 @@ expr : expr TOKEN_ADD expr
           { $$ = expr_create( EXPR_SUB, $1, $3 ); }
      ...
      ;
-
+```
 
 To make this work, you will need to declare a `union`
 type at the top, indicating which productions generate which
@@ -59,7 +60,7 @@ types in the AST:
 	struct expr *expr;
 	. . .
 };
-
+```
 
 And then follow it with `%type` declarations that inform
 Bison which member of the union to use for each production:
@@ -69,7 +70,7 @@ Bison which member of the union to use for each production:
 %type <stmt> stmt stmt_list
 %type <expr> expr expr_list and_expr or_expr . . .
 . . .
-
+```
 
 Finally, write the code which will pretty-print the AST back out:
 
@@ -77,9 +78,8 @@ Finally, write the code which will pretty-print the AST back out:
 decl_print( struct decl *d );
 stmt_print( struct stmt *s );
 expr_print( struct expr *e );
-
 ...
-
+```
 
 ## Output Format
 
@@ -101,7 +101,7 @@ if( x<1 ) { return 0; } else {
 if((x<2)) { return 1; } else {
 return fib((x)-1) + fib((x-2)); // recursive step
 } }}
-
+```
 
 Should be reformatted like this:
 ```
@@ -117,7 +117,7 @@ fib: function integer ( x: integer ) =
 		}
 	}
 }
-
+```
 
 You can exercise your judgement on the remaining details not specified,
 as long as your output is *consistent*.  For example, we don't care
