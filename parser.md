@@ -1,4 +1,4 @@
-# CSE 40243/60243 - Parser Assignment - Fall 2022
+## Parser Assignment
 
 ## Objectives
 The objectives of this assignment are:

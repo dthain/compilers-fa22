@@ -1,4 +1,4 @@
-# CSE 40243/60243 - Typechecking Assignment - Fall 2022
+# Typechecking Assignment
 
 ## Objectives
 

@@ -1,4 +1,4 @@
-# CSE 40243/60243 Pretty-Printer Assignment - Fall 2022
+# Pretty-Printer
 
 ## Objectives
 
