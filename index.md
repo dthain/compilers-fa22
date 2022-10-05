@@ -36,7 +36,7 @@
 |Sep 19 | Ch 4.4-4.6 |  Shift-Reduce Parsing  | LR(0) Automaton  | SLR Parsing         | [HW3 Due Wed](homework.md) |
 |Sep 26 | Ch 5      | LR(1) and Recap  | Bison           | Bison  | [HW4 Due Wed](homework.md) | [Bison Manual](https://www.gnu.org/software/bison/manual/html_node/index.html) / [Examples](https://github.com/dthain/compilerbook-examples/tree/master/chapter5) |
 |Oct 3  | Ch 5       | Parsing B-Minor | Parsing B-Minor     | Abstract Syntax Tree |  | [AST Handout](ast.html) |
-|Oct 10 | Ch 6       | Abstract Syntax Tree | Review              | **Midterm Exam** |  [Parser Due Mon](parser.md) |
+|Oct 10 | Ch 6       | Abstract Syntax Tree | Review              | **Midterm Exam** |  [Parser Due Tue](parser.md) |
 |Oct 17 |            | *Fall Break*    | *Fall Break*          | *Fall Break*     |                   |
 |Oct 24 | Ch 7       | Type Systems    | Name Resolution       | Typechecking     |                   |
 |Oct 31 | Ch 9       | Memory Org      | Memory Org            | Guest Lecture    | [Printer Due Mon](printer.md)|
