@@ -19,10 +19,17 @@ much like the tool `/usr/bin/indent`.
 ## Requirements
 
 Please review the [general instructions](general.md) for assignments.
-To keep the class reasonably synchronized, you must use the [B-Minor Starter Code](a href=https://github.com/dthain-courses/compiler-starter-code) as the basis for the AST, although you are welcome
+To keep the class reasonably synchronized, you must use the
+[B-Minor Starter Code](https://github.com/dthain-courses/compiler-starter-code) as the basis for the AST, although you are welcome
 to add or adjust fields in the structures as necessary.
 
-Your program will be invoked as follows:
+The prior stages of the compiler should continue to work as they did before:
+```
+./bminor -scan sourcefile.bminor
+./bminor -parse sourcefile.bminor
+```
+
+For this stage, your program will be invoked as follows:
 ```
 ./bminor -print sourcefile.bminor
 ```
@@ -32,7 +39,6 @@ And it should behave as follows:
 -  If the input does not scan correctly, then `bminor` must emit `scan error:` followed by a reasonable error message and exit with status 1.
 -  If the input does not parse correctly, then `bminor` must emit `parse error:` followed by a reasonable error message and exit with status 1.
 -  If the input has valid B-minor syntax, then `bminor` must display the pretty-printed output and exit with status 0.
-
 
 ## Approach
 
