@@ -4,7 +4,7 @@
 a little each year, in order to provide new challenges
 and opportunities.  This document differs from the one
 in the textbook by adding the `auto` keyword and the
-ternary `:?` operator.**
+ternary `?:` operator.**
 
 ## Overview
 
@@ -111,7 +111,7 @@ meaning and level of precedence:
 | `<` `<=` `>` `>=` `==` `!=` | comparison |
 | `&&`            | logical and |
 | `||`            | logical or |
-| `=` `:?`        | assignment, **ternary** |
+| `=` `?:`        | assignment, **ternary** |
 
 B-minor is **strictly typed**.  This means that you may only assign a value
 to a variable (or function parameter) if the types match **exactly**.
@@ -126,7 +126,7 @@ if(x>y) ... // error: x and y are of different types!
 f: integer = 0;
 if(f) ...      // error: f is not a boolean!
 
-writechar: function void ( char c );
+writechar: function void ( c: char );
 a: integer = 65;
 writechar(a);  // error: a is not a char!
 
