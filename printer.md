@@ -172,7 +172,7 @@ For this assignment, your grade will be based upon the following:
 -  (20 points) Correctness on the instructors' hidden test cases.
 -  (10 points) Good programming style.  Each of the program components (main, scanner, parser) should be cleanly separated into multiple source files, complex or repetitive tasks should be broken into multiple functions, identifiers should be sensibly chosen, and the code generally commented and readable.
 
-This assignment is due **Monday, October 31st at 11:59PM**.  Late assignments are not accepted.
+This assignment is due ~~Monday~~ **Tuesday, November 1st at 11:59PM**.  Late assignments are not accepted.
 
 ## Frequently Asked Questions
 
