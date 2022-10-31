@@ -39,7 +39,7 @@
 |Oct 10 | Ch 6       | Abstract Syntax Tree | Review              | **[Midterm Exam](midterm.md)** |  [Parser Due Tue](parser.md) |
 |Oct 17 |            | *Fall Break*    | *Fall Break*          | *Fall Break*     |                   |
 |Oct 24 | Ch 7       | Type Systems    | Name Resolution       | Typechecking     |                   |
-|Oct 31 | Ch 9       | Memory Org      | Memory Org            | Guest Lecture    | [Printer Due Mon](printer.md)|
+|Oct 31 | Ch 9       | Memory Org      | Memory Org            | Guest Lecture    | [Printer Due Tue](printer.md)|
 |Nov 7  | Ch 10      | Assembly        | Assembly              | Assembly         |                   |
 |Nov 14 | Ch 11      | Codegen         | Codegen               | Codegen          | [Typecheck Due Mon](typecheck.md)|
 |Nov 21 | Ch 11      | Codegen         | *Thanksgiving*        | *Thanksgiving*   |                   |
