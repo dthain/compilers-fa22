@@ -40,8 +40,8 @@
 |Oct 17 |            | *Fall Break*    | *Fall Break*          | *Fall Break*     |                   |
 |Oct 24 | Ch 7       | Type Systems    | Name Resolution       | Typechecking     |                   |
 |Oct 31 | Ch 9       | Memory Org      | Memory Org            | Guest Lecture    | [Printer Due Tue](printer.md)|
-|Nov 7  | Ch 10      | Assembly        | Assembly              | Assembly         |                   |
-|Nov 14 | Ch 11      | Codegen         | Codegen               | Codegen          | [Typecheck Due Mon](typecheck.md)|
+|Nov 7  | Ch 10      | Assembly        | Assembly              | Assembly         |                   | [Intel Manuals](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
+|Nov 14 | Ch 11      | Codegen         | Codegen               | Codegen          | [Typecheck Due Mon](typecheck.md)| [Calling Convention](https://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf)
 |Nov 21 | Ch 11      | Codegen         | *Thanksgiving*        | *Thanksgiving*   |                   |
 |Nov 28 | Ch 12      | Optimization    | Garbage Coll.         | Garbage Coll.    |
 |Dec 5  |            | Catch Up        | Review                |                  |  Code Generator Due Wed|
