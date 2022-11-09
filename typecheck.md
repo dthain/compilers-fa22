@@ -148,7 +148,7 @@ been determined, then emit a suitable error message.
 ### Testing
 
 You must test your program extensively by designing and testing a large
-number of test cases.  Try these <a href=https://github.com/dthain/compilers/tree/master/tests/typecheck>example tests</a> as a starting point.
+number of test cases.  Try these [example tests](https://github.com/dthain/compilers/tree/master/tests/typecheck) as a starting point.
 However, the example tests are not comprehensive, so you must also
 design and submit your own test files.  Ten should be
 named `good[1-10].bminor` and should be valid B-minor programs.
@@ -214,7 +214,7 @@ For this assignment, your grade will be based upon the following:
 -  Good programming style. (10 percent)
 
 
-This assignment is due **Monday, November 14th* at 11:59PM**.  Late assignments are not accepted.
+This assignment is due **Monday, November 14th at 11:59PM**.  Late assignments are not accepted.
 
 ## Frequently Asked Questions
 
