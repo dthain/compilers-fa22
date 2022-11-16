@@ -44,6 +44,6 @@
 |Nov 14 | Ch 11      | Codegen         | Codegen               | Codegen          | [Typecheck Due Mon](typecheck.md)| [Calling Convention](https://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf)
 |Nov 21 | Ch 11      | Codegen         | *Thanksgiving*        | *Thanksgiving*   |                   |
 |Nov 28 | Ch 12      | Optimization    | Garbage Coll.         | Garbage Coll.    |
-|Dec 5  |            | Catch Up        | Review                |                  |  Code Generator Due Wed|
+|Dec 5  |            | Catch Up        | Review                |                  | [Code Generator Due Wed](codegen.md)|
 |Dec 12 |            |                 |                       | **Final Exam** 8-10AM Friday Dec 16  |                   |
 
